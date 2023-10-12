@@ -1,0 +1,29 @@
+
+
+/* IDs */
+
+
+/* Menu Principal */
+.menu-top{
+	background-color: #e8ecef;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover{
+	background-color: #2ebba9;
+}
+
+.navbar-brand{
+	max-width: 220px;
+}
+
+.btn-font{
+	min-width: 35px;
+	border-radius: 50%;
+}
+
+
+
+.bd{
+	border: 1px solid red;
+}
