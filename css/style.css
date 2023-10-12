@@ -1,10 +1,15 @@
+/* Tags Html */
 
+a:hover{
+    color: #ffafcc;
+    text-decoration: none;
+}
 
 /* IDs */
 
 
 /* Menu Principal */
-.menu-top{
+.menu-color{
 	background-color: #e8ecef;
 }
 
@@ -22,6 +27,35 @@
 	border-radius: 50%;
 }
 
+
+/* Footer */
+.footer-above{
+	min-height: 220px;	
+	background-color: #cfcecf;
+	border-top: 1px solid #e7e7e7;
+	margin-top: 100px;
+	padding-top: 12px;
+}
+
+.footer-below{
+	padding: 15px 0px 5px 0px !important;
+}
+
+.btn-social{
+	max-width: 45px;
+	background-color: #cfcecf;
+	border-radius: 50%;
+}
+
+.btn-social:hover {
+  background-color: #e8ecef; 
+}
+
+.list-group-item{
+	background-color: transparent;
+	border: none;
+	padding: 2.5rem 0.6rem;
+}
 
 
 .bd{
