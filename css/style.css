@@ -1,17 +1,23 @@
+/* Tags Html */
+
+a:hover{
+    text-decoration: none;
+}
+
+section{
+	padding-top: 5px;
+	margin: 30px 0;	
+}
+
 /* IDs */
+
+#main{
+	
+}
 
 #top-menu{
 	margin: 0 auto;
 }
-
-/* Tags Html */
-
-a:hover{
-    color: #ffafcc;
-    text-decoration: none;
-}
-
-/* IDs */
 
 
 /* Menu Principal */
@@ -40,9 +46,46 @@ a:hover{
 }
 
 .btn-font:hover{
-	color: #fff;
+	color: #ffffff;
 	background-color: #1a1d20;
 }
+
+/* Geral */
+.main-div{
+	margin-top: 80px;
+}
+
+/* Conteúdo */
+
+.cont-item{
+	margin: 60px 0px 20px 0px;	
+}
+
+.cont-home{
+	margin: 20px 0px;
+}
+
+.cont-home-img {
+    max-height: 200px;
+	margin: 5%;
+}
+
+.cont-home-p{
+	padding: 5% 10%;
+}
+
+.cont-home-btn{
+    color: #ffffff;
+    background-color: #343a40;
+    border-color: #343a40;	
+	border-radius: 1.25rem;
+}
+
+.cont-home-btn:hover{
+	color: #ffffff !important;
+	background-color: #1a1d20 !important;
+}
+
 
 /* Footer */
 .footer-above{
