@@ -75,20 +75,6 @@ a:hover{
 
 /* Misc */
 
-.tooltip-inner{
-
-    padding:2px 7px;
-    color:#55AAAA;
-    text-align:center;
-    font-weight:900;
-    background: -webkit-gradient(linear, left top, left 25, from(#F4F4F4), color-stop(4%, #B4C8D6), to(#F4F4F4)); 
-    background: -moz-linear-gradient(top, #F4F4F4, #B4C8D6 1px, #F4F4F4 25px); 
-    border: 1px solid #55AAAA;
-    -webkit-border-radius:9px;
-    -moz-border-radius:9px;
-    border-radius:9px;    
-}
-
 .bd{
 	border: 1px solid red;
 }
