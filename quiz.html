@@ -24,7 +24,7 @@
 	<script src="js/script.js" type="text/javascript"></script>	
 	
 	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
-	<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>		
+	<script src="js/bootstrap.bundle.min" type="text/javascript"></script>		
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>	
 	
 </head>
@@ -55,7 +55,7 @@
 					<li class="nav-item">
 						<a class="nav-link" href="kanji-grupo.html">GRUPOS</a>
 					</li>    
-					<li class="nav-item">
+					<li class="nav-item active">
 						<a class="nav-link" href="quiz.html">QUIZ</a>
 					</li>
 					<li class="nav-item">
@@ -67,12 +67,9 @@
 				</ul>
 				<ul class="navbar-nav">
 					<li class="">
-						<button type="button" class="btn btn-sm btn-font" data-toggle="tooltip" data-placement="bottom" title="Aumentar fonte" onClick="changeSizePlus();">
-							A+</button>
-						<button type="button" class="btn btn-sm btn-font" data-toggle="tooltip" data-placement="bottom" title="Restaurar fonte" onClick="changeSizeDefault();">
-							A</button>						
-						<button type="button" class="btn btn-sm btn-font" data-toggle="tooltip" data-placement="bottom" title="Reduzir fonte" onClick="changeSizeMinus();">
-							A-</button>
+						<button class="btn btn-sm btn-font" onClick="changeSizePlus();">A+</button>
+						<button class="btn btn-sm btn-font" onClick="changeSizeDefault();">A</button>						
+						<button class="btn btn-sm btn-font" onClick="changeSizeMinus();">A-</button>
 					</li>	
 				</ul>
 			</div>
@@ -86,7 +83,7 @@
 		<section class="" id="home">
 			<div class="container">
 		
-				<h1>My First Bootstrap Page</h1>
+				<h1>Kanji Quiz</h1>
 				<p>This is some text.</p>
 				
 				<h2>Primeiro Título</h2>

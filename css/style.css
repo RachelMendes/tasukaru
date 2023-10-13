@@ -1,3 +1,9 @@
+/* IDs */
+
+#top-menu{
+	margin: 0 auto;
+}
+
 /* Tags Html */
 
 a:hover{
@@ -13,9 +19,12 @@ a:hover{
 	background-color: #e8ecef;
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover{
-	background-color: #2ebba9;
+.navbar-nav .nav-item .nav-link {
+    color: #939da7;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #343a40;
 }
 
 .navbar-brand{
@@ -25,8 +34,15 @@ a:hover{
 .btn-font{
 	min-width: 35px;
 	border-radius: 50%;
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;	
 }
 
+.btn-font:hover{
+	color: #fff;
+	background-color: #1a1d20;
+}
 
 /* Footer */
 .footer-above{
@@ -57,6 +73,21 @@ a:hover{
 	padding: 2.5rem 0.6rem;
 }
 
+/* Misc */
+
+.tooltip-inner{
+
+    padding:2px 7px;
+    color:#55AAAA;
+    text-align:center;
+    font-weight:900;
+    background: -webkit-gradient(linear, left top, left 25, from(#F4F4F4), color-stop(4%, #B4C8D6), to(#F4F4F4)); 
+    background: -moz-linear-gradient(top, #F4F4F4, #B4C8D6 1px, #F4F4F4 25px); 
+    border: 1px solid #55AAAA;
+    -webkit-border-radius:9px;
+    -moz-border-radius:9px;
+    border-radius:9px;    
+}
 
 .bd{
 	border: 1px solid red;
