@@ -6,7 +6,7 @@ a:hover{
 
 section{
 	padding-top: 5px;
-	margin: 30px 0;	
+	margin: 60px 0px 30px 0px;	
 }
 
 /* IDs */
@@ -19,6 +19,31 @@ section{
 	margin: 0 auto;
 }
 
+#btnTop{
+//	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: #23272b; /* Set a background color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 15px; /* Some padding */
+	border-radius: 50px; /* Rounded corners */
+}
+
+#btnTop:hover{
+	background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#top-img{
+	width: 30px;
+}
+
+#img-footer{
+	max-width: 180px;
+}
 
 /* Menu Principal */
 .menu-color{
@@ -55,6 +80,11 @@ section{
 	margin-top: 80px;
 }
 
+.line-busca{
+	padding-bottom: 5%;
+	border-bottom: 1px solid #343a40;
+}
+
 /* Conteúdo */
 
 .cont-item{
@@ -62,7 +92,7 @@ section{
 }
 
 .cont-home{
-	margin: 20px 0px;
+	margin: 40px 0px;
 }
 
 .cont-home-img {
@@ -86,6 +116,38 @@ section{
 	background-color: #1a1d20 !important;
 }
 
+/* Kanas */
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+  
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
 
 /* Footer */
 .footer-above{
@@ -93,7 +155,7 @@ section{
 	background-color: #cfcecf;
 	border-top: 1px solid #e7e7e7;
 	margin-top: 100px;
-	padding-top: 12px;
+	padding: 20px 0px;
 }
 
 .footer-below{

@@ -37,3 +37,46 @@ function changeSizeDefault(){
 		x[i].style.fontSize = "16px";
 	}	
 }
+
+//Tooltip
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+
+// Select all tabs
+$('.nav-tabs a').click(function(){
+  $(this).tab('show');
+})
+
+// Select tab by name
+$('.nav-tabs a[href="#home"]').tab('show')
+
+// Select first tab
+$('.nav-tabs a:first').tab('show')
+
+// Select last tab
+$('.nav-tabs a:last').tab('show')
+
+// Select fourth tab (zero-based)
+$('.nav-tabs li:eq(3) a').tab('show')
+
+
+//Get the button:
+var mybutton = document.getElementById("btnTop");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
