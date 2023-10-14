@@ -106,8 +106,12 @@ section{
 }
 
 .list-group-flush > .list-group-item{
-	padding: 1% 2%;
+	padding: 1% 2% 1% 0%;
 	border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.first-text{
+
 }
 
 /* Conteúdo */
@@ -186,6 +190,28 @@ section{
 
 .tab button.active {
   background-color: #ccc;
+}
+
+/* Kanji Quiz */
+.quiz-item{
+	margin: 60px 0px 20px 0px;	
+}
+
+.quiz-img{
+	padding-top: 10px 0px;
+	margin-bottom: 10px;
+}
+
+.quiz-img-in{
+	margin-bottom: 30px;
+}
+
+.quiz-title {
+    margin-bottom: 20px;
+}
+
+.quiz-p{
+	width: 95%;
 }
 
 /* Footer */
