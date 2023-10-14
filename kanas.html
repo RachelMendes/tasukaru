@@ -24,7 +24,7 @@
 	<script src="js/script.js" type="text/javascript"></script>	
 	
 	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
-	<script src="js/bootstrap.bundle.min" type="text/javascript"></script>		
+	<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>		
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>	
 	
 </head>
@@ -87,12 +87,12 @@
 			<div class="container mt-3">
 			
 				<!-- Nav tabs -->
-				<ul class="nav nav-tabs">
+				<ul class="nav nav-tabs tab nav-justified">
 					<li class="nav-item">
-						<a class="nav-link active" data-toggle="tab" href="#hira">Hiragana</a>
+						<a class="nav-link active" data-toggle="tab" href="#hira"><h3>Hiragana</h3></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" data-toggle="tab" href="#kata">Katakana</a>
+						<a class="nav-link" data-toggle="tab" href="#kata"><h3>Katakana</h3></a>
 					</li>
 				</ul>
 
@@ -100,38 +100,40 @@
 				<div class="tab-content">
 					
 					<div id="hira" class="container tab-pane active"><br>
-						
-						<h3>Hiragana</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						<div class="row navbar-expand-lg col-sm-12 col-md-12">
-							<img src="img/tab-hiragana.png" id="" class="img-fluid" alt="Tabela Hiragana">	
+						<p class="p-kana">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+						<div class="row col-sm-12 col-md-12 text-center main-kana">
+							<img src="img/tab-hiragana.png" id="" class="img-fluid img-main-kana" alt="Tabela Hiragana">	
 						</div>
 						<div class="row">	
-							<div class="col-sm-12 col-md-6 text-center cont-home">				
+							<div class="col-sm-12 col-md-6 text-center aux-kana">				
 								<h3>Sinais de Modificação</h3>
-								<img src="img/tab-hiragana-mod.png" id="" class="img-fluid" alt="Sinais de Modificação">
+								<img src="img/tab-hiragana-mod.png" id="" class="img-fluid justify-content-center img-aux-kana" alt="Sinais de Modificação">
 							</div>						
-							<div class="col-sm-12 col-md-6 text-center cont-home">				
+							<div class="col-sm-12 col-md-6 text-center aux-kana">				
 								<h3>Junções</h3>
-								<img src="img/tab-hiragana-jun.png" id="" class="img-fluid" alt="Junções">	
+								<img src="img/tab-hiragana-jun.png" id="" class="img-fluid img-aux-kana" alt="Junções">	
 							</div>
 						</div>	
 					</div>
 					
-					<div id="kata" class="container tab-pane fade"><br>
-						<h3>Katakana</h3>
-						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						<div class="row navbar-expand-lg col-sm-12 col-md-12">
-							<img src="img/tab-hiragana.png" id="" class="img-fluid" alt="Tabela Hiragana">	
+					<div id="kata" class="container tab-pane fade"><br>						
+						<p class="p-kana">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+						<div class="row col-sm-12 col-md-12 text-center main-kana">
+							<img src="img/tab-hiragana.png" id="" class="img-fluid img-main-kana" alt="Tabela Katakana">	
 						</div>
 						<div class="row">	
-							<div class="col-sm-12 col-md-6 text-center cont-home">				
+							<div class="col-sm-12 col-md-6 text-center aux-kana">				
 								<h3>Sinais de Modificação</h3>
-								<img src="img/tab-hiragana-mod.png" id="" class="img-fluid" alt="Sinais de Modificação">
+								<img src="img/tab-hiragana-mod.png" id="" class="img-fluid img-aux-kana" alt="Sinais de Modificação">
 							</div>						
-							<div class="col-sm-12 col-md-6 text-center cont-home">				
+							<div class="col-sm-12 col-md-6 text-center aux-kana">				
 								<h3>Junções</h3>
-								<img src="img/tab-hiragana-jun.png" id="" class="img-fluid" alt="Junções">	
+								<img src="img/tab-hiragana-jun.png" id="" class="img-fluid img-aux-kana" alt="Junções">	
 							</div>
 						</div>	
 					</div>
@@ -141,30 +143,9 @@
 			</div>
 		</section>	
 
-		<section class="">
-			<div class="container bd">
-				
-				<!-- Tab links -->				
-				<div class="tab">
-				  <button class="tablinks" onclick="openCity(event, 'Hiragana')">Hiragana</button>
-				  <button class="tablinks" onclick="openCity(event, 'Katakana')">Katakana</button>
-				</div>	
-
-				<!-- Tab content -->
-				<div id="Hiragana" class="tabcontent">
-				  <h3>Hiragana</h3>
-				  <p>London is the capital city of England.</p>
-				</div>
-
-				<div id="Katakana" class="tabcontent">
-				  <h3>Katakana</h3>
-				  <p>Tokyo is the capital of Japan.</p>
-				</div>
-					
-			</div>
-		</section>
-
-
+		<button onclick="topFunction()" id="btnTop" title="Voltar ao início">
+			<img src="img/top.png" id="top-img" class="img-fluid" alt="imagem">
+		</button>
 
 	</main>
 
@@ -206,7 +187,7 @@
 					</div>
 					<!-- Footer: Terceira Coluna -->						
 					<div class="col-md-4" align="center">
-						<img src="img/img-ft.png" id="" class="img-fluid" alt="imagem">							
+						<img src="img/img-place.png" id="" class="img-fluid" alt="imagem">							
 					</div>					
 				</div>
 			</div>

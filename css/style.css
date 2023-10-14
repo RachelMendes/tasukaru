@@ -1,6 +1,11 @@
 /* Tags Html */
 
+a{
+	color: #939da7;
+}
+
 a:hover{
+	color: #343a40;
     text-decoration: none;
 }
 
@@ -41,6 +46,20 @@ section{
 	width: 30px;
 }
 
+#hira{
+	padding: 10px 0px;
+	border: 1px solid #ccc;	
+}
+
+#kata{
+	padding: 10px 0px;
+	border: 1px solid #ccc;		
+}
+
+#sobre-div{
+	padding: 5% 0%;	
+}
+
 #img-footer{
 	max-width: 180px;
 }
@@ -60,6 +79,7 @@ section{
 
 .navbar-brand{
 	max-width: 220px;
+	margin: 0px;
 }
 
 .btn-font{
@@ -83,6 +103,11 @@ section{
 .line-busca{
 	padding-bottom: 5%;
 	border-bottom: 1px solid #343a40;
+}
+
+.list-group-flush > .list-group-item{
+	padding: 1% 2%;
+	border-bottom: 1px solid rgba(0,0,0,.125);
 }
 
 /* Conteúdo */
@@ -118,10 +143,31 @@ section{
 
 /* Kanas */
 
+.main-kana{
+	margin: 30px 5px;
+	padding: 2%;
+}
+
+.img-main-kana{	
+	margin: 0 auto;
+}
+
+.aux-kana{
+	padding: 2%;
+}
+
+.img-aux-kana{
+	max-height: 580px;
+	margin: 0 auto;		
+}
+
+.p-kana{
+	padding: 2% 10% 0% 10%;
+}
+
 .tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+	border: 1px solid #cccccc;
+	background-color: #f1f1f1;
 }
 
 .tab button {
@@ -140,13 +186,6 @@ section{
 
 .tab button.active {
   background-color: #ccc;
-}
-
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
 }
 
 /* Footer */
