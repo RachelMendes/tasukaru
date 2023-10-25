@@ -145,6 +145,18 @@ section{
 	background-color: #1a1d20 !important;
 }
 
+/* Grupos */
+
+.grupo-item{
+
+}
+
+
+.line-jumb{
+	padding-bottom: 2%;
+	border-bottom: 1px solid #343a40;	
+}
+
 /* Kanas */
 
 .main-kana{
