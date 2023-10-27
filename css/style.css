@@ -42,22 +42,41 @@ section{
 	background-color: #555; /* Add a dark-grey background on hover */
 }
 
+#btn-draw{
+	border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+	border-right: 2px solid #ced4da !important;
+}
+
+#btn-sch{
+	border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
 #top-img{
 	width: 30px;
 }
 
 #hira{
 	padding: 10px 0px;
-	border: 1px solid #ccc;	
+	border: 1px solid #cccccc;	
 }
 
 #kata{
 	padding: 10px 0px;
-	border: 1px solid #ccc;		
+	border: 1px solid #cccccc;		
 }
 
 #sobre-div{
 	padding: 5% 0%;	
+}
+
+#busca-dic{
+	padding: 0% 5%;
+}
+
+#link-sch{
+	color: #ffffff;	
 }
 
 #img-footer{
@@ -112,6 +131,17 @@ section{
 
 .first-text{
 
+}
+
+/* Busca */
+
+.img-lang{
+	width: 35px;
+	margin-right: 8px;
+}
+
+.p-lang{
+	margin-left: 5%;	
 }
 
 /* Conteúdo */
@@ -205,6 +235,7 @@ section{
 }
 
 /* Kanji Quiz */
+
 .quiz-item{
 	margin: 60px 0px 20px 0px;	
 }
@@ -227,6 +258,7 @@ section{
 }
 
 /* Footer */
+
 .footer-above{
 	min-height: 220px;	
 	background-color: #cfcecf;
@@ -246,7 +278,16 @@ section{
 }
 
 .btn-social:hover {
-  background-color: #e8ecef; 
+	background-color: #e8ecef; 
+}
+
+.icn-social{
+	font-size: 35px;
+	color: #23272b;
+}
+
+.icn-social:hover {
+	color: #1a1d20; 
 }
 
 .list-group-item{
