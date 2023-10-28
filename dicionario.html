@@ -104,13 +104,14 @@
 				</div>
 				
 				<div class="row" id="busca-dic">
+					
 					<div class="input-group mb-3 input-group-lg">
 						<div class="input-group-append">
-							<button class="btn cont-home-btn" type="button" id="btn-draw">
-								<i class="bi bi-pencil-square"></i>
+							<button class="btn cont-home-btn" id="btn-draw" onClick="activeBttDraw();" type="button" data-toggle="collapse" data-target="#collapseDraw" aria-expanded="false" aria-controls="collapseDraw">
+								<i class="bi bi-pencil-square" data-toggle="tooltip" data-placement="bottom" title="Escrita Manual"></i>
 							</button>  
-							<button class="btn cont-home-btn" type="button">
-								<i class="bi bi-mic-fill"></i>
+							<button class="btn cont-home-btn" id="btn-voice" onClick="activeBttVoice();" type="button" data-toggle="collapse" data-target="#collapseVoice" aria-expanded="false" aria-controls="collapseVoice">
+								<i class="bi bi-mic-fill" data-toggle="tooltip" data-placement="bottom" title="Voz"></i>
 							</button>  
 						</div>					
 						<input type="text" class="form-control" placeholder="Busca">
@@ -118,8 +119,36 @@
 							<button class="btn cont-home-btn" type="button" id="btn-sch">
 								<a id="link-sch" role="button" href="lista.html"><i class="bi bi-search"></i></a>													
 							</button>  
-						</div>
+						</div>						
 					</div>
+
+					<div class="collapse" id="collapseVoice">
+						<div class="card card-body">
+							<p>Procure o Kanji desejado através da entrada por voz.</br>Vá em frente e comece a falar!</p>
+							<img src="img/place-square2.png" id="" class="img-fluid place-square2 item-draw" alt="opções de kanji">
+						</div>
+					</div>	
+					
+					<div class="collapse" id="collapseDraw">
+						
+						<div class="card card-body row col-md-12 col-lg-12">
+							<p>Procure o Kanji desejado através da escrita manual.</p>													
+							<div class="card-deck justify-content-center">
+								<div class="card card-body col-lg-6">
+									<img src="img/back-draw.png" id="" class="img-fluid place-square" alt="imagem">
+									<p class="btn-draw mt-3">
+										<button class="btn cont-home-btn" href="#">Recomeçar</button>
+										<button class="btn cont-home-btn" href="#">Desfazer</button>
+									</p>
+								</div>
+								<div class="card card-body col-lg-6">
+									<img src="img/place-square.png" id="" class="img-fluid place-square item-draw" alt="opções de kanji">
+								</div>
+							</div>	
+						</div>
+						
+					</div>				
+					
 				</div>
 				
 			</div>

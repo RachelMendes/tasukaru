@@ -63,3 +63,27 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+
+// Active button
+function activeBttDraw(){	
+	var x = document.getElementById("btn-draw");
+	if (x.getAttribute("app_active") == null){
+		x.style.backgroundColor = "#1a1d20";
+		x.setAttribute("app_active", "")
+	} else {
+		x.style.backgroundColor = "#343a40";
+		x.removeAttribute("app_active")
+	}
+}
+
+function activeBttVoice(){	
+	var x = document.getElementById("btn-voice");
+	if (x.getAttribute("app_active") == null){
+		x.style.backgroundColor = "#1a1d20";
+		x.setAttribute("app_active", "")
+	} else {
+		x.style.backgroundColor = "#343a40";
+		x.removeAttribute("app_active")
+	}
+}

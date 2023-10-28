@@ -79,6 +79,10 @@ section{
 	color: #ffffff;	
 }
 
+#btn-draw{
+
+}
+
 #img-footer{
 	max-width: 180px;
 }
@@ -133,6 +137,14 @@ section{
 
 }
 
+.place-square{
+	max-width: 100%;	
+}
+
+.place-square2{
+	max-width: 65%;	
+}
+
 /* Busca */
 
 .img-lang{
@@ -142,6 +154,14 @@ section{
 
 .p-lang{
 	margin-left: 5%;	
+}
+
+.btn-draw{
+
+}
+
+.item-draw{
+	cursor: pointer;
 }
 
 /* Conteúdo */
