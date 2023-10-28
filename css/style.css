@@ -17,7 +17,7 @@ section{
 /* IDs */
 
 #main{
-	
+	margin-top: 100px;
 }
 
 #top-menu{
@@ -124,8 +124,9 @@ section{
 }
 
 .line-busca{
-	padding-bottom: 5%;
+	padding-bottom: 8%;
 	border-bottom: 1px solid #343a40;
+	margin-top: 40px;
 }
 
 .list-group-flush > .list-group-item{
