@@ -1,7 +1,24 @@
 /* Tags Html */
 
+body{
+	color: #242d34;
+	background-color: #ffffff;
+	font-family: "Plus Jakarta Sans", sans-serif;	
+}
+
+p{
+	font-size: 16px;
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Plus Jakarta Sans", sans-serif;
+	font-weight: 500;
+}
+
 a{
 	color: #939da7;
+	font-family: "Plus Jakarta Sans", sans-serif;	
 }
 
 a:hover{
@@ -25,21 +42,21 @@ section{
 }
 
 #btnTop{
-	display: none; /* Hidden by default */
-	position: fixed; /* Fixed/sticky position */
-	bottom: 20px; /* Place the button at the bottom of the page */
-	right: 30px; /* Place the button 30px from the right */
-	z-index: 99; /* Make sure it does not overlap */
-	border: none; /* Remove borders */
-	outline: none; /* Remove outline */
-	background-color: #23272b; /* Set a background color */
-	cursor: pointer; /* Add a mouse pointer on hover */
-	padding: 15px; /* Some padding */
-	border-radius: 50px; /* Rounded corners */
+	display: none; 
+	position: fixed; 
+	bottom: 20px; 
+	right: 30px; 
+	z-index: 99; 
+	border: none; 
+	outline: none; 
+	background-color: #fcaf67; 
+	cursor: pointer; 
+	padding: 15px; 
+	border-radius: 50px; 
 }
 
 #btnTop:hover{
-	background-color: #555; /* Add a dark-grey background on hover */
+	background-color: #fda552; 
 }
 
 #btn-draw{
@@ -63,8 +80,44 @@ section{
 }
 
 #kata{
-	padding: 10px 0px;
+	padding: 10px 5px;
 	border: 1px solid #cccccc;		
+}
+
+#hira-title{
+	background-color: #ffffff;
+	border: 1px solid rgba(0,0,0,.125);
+}
+
+#hira-title.active{
+	color: #ffffff;
+	background-color: #da364f;
+    border: 1px solid rgba(0,0,0,.125);	
+}
+
+#hira2{
+	padding: 10px 5px;	
+	border-top: none;
+    border: 1px solid rgba(0,0,0,.125);	
+	background-color: #e8ecef;
+}
+
+#kata-title{
+	background-color: #ffffff;
+    border: 1px solid rgba(0,0,0,.125);	
+}
+
+#kata-title.active{
+	color: #ffffff;
+	background-color: #da364f;
+    border: 1px solid rgba(0,0,0,.125);	
+}
+
+#kata2{
+	padding: 10px 5px;	
+	border-top: none;
+    border: 1px solid rgba(0,0,0,.125);		
+	background-color: #e8ecef;	
 }
 
 #sobre-div{
@@ -87,21 +140,74 @@ section{
 	max-width: 180px;
 }
 
-/* Menu Principal */
-.menu-color{
+#vert-logo{
+	max-width: 180px;
+}
+
+#site-img{
+	max-width: 62%;
+}
+
+#tasu-text{
+	max-width: 180px;
+}
+
+#jumb-gp{
 	background-color: #e8ecef;
+	border: 1px solid rgba(0,0,0,.125);
+}
+
+#jumb-img{
+	max-height: 200px;	
+}
+
+#ft-patt{
+	border-top: 4px solid #242d34;
+	border-bottom: 4px solid #242d34;
+	min-height: 100px;
+	margin-top: 120px;
+}
+
+#btn-back{
+	border-radius: 3.25rem;
+	margin-top: 20px;
+}
+
+#card-dic{
+	background-color: #ffffff;
+	border: none;	
+}
+
+#top-info{
+
+}
+
+#kanji-dic{
+	max-width: 240px;
+}
+
+#kanji-info{
+	margin-bottom: 35px;
+}
+
+/* Menu Principal */
+
+.menu-color{
+	background-color: #ffffff;
+    box-shadow: rgb(0 0 0 / 10%) 0px 6px 12px;	
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: #939da7;
+    color: #242d34;
 }
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
-    color: #343a40;
+    color: #da364f;
+	font-weight: 600;
 }
 
 .navbar-brand{
-	max-width: 220px;
+	max-width: 182px;
 	margin: 0px;
 }
 
@@ -109,23 +215,31 @@ section{
 	min-width: 35px;
 	border-radius: 50%;
     color: #fff;
-    background-color: #343a40;
-    border-color: #343a40;	
+    background-color: #242d34;
+    border-color: #242d34;	
 }
 
 .btn-font:hover{
 	color: #ffffff;
-	background-color: #1a1d20;
+	background-color: #da364f;
+	border: 1px solid #da364f;
 }
 
 /* Geral */
+
 .main-div{
 	margin-top: 80px;
 }
 
 .line-busca{
 	padding-bottom: 8%;
-	border-bottom: 1px solid #343a40;
+	border-bottom: 3px solid #da364f;
+	margin-top: 40px;
+}
+
+.line-dic{
+	padding-bottom: 3%;
+	border-bottom: 3px solid #da364f;
 	margin-top: 40px;
 }
 
@@ -146,10 +260,23 @@ section{
 	max-width: 65%;	
 }
 
+.card-gp{
+	background-color: #e8ecef;
+}
+
+.card-img, .card-img-bottom{
+    margin: 15px 0px;
+}
+
 /* Busca */
 
 .img-lang{
 	width: 35px;
+	margin-right: 8px;
+}
+
+.img-lang-br{
+	width: 52px;
 	margin-right: 8px;
 }
 
@@ -163,6 +290,101 @@ section{
 
 .item-draw{
 	cursor: pointer;
+}
+
+.leitura-tp{
+	background-color: #da364f;
+	padding: 4px 10px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+.leitura{
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.card-leitura-kun{
+    margin-bottom: -18px;	
+}
+
+.card-lista{
+	background-color: #e8ecef;
+}
+
+.card-img-lista{
+	border: 6px solid #da364f;
+}
+
+.card-img-lista2{
+    border: 1px solid rgba(0,0,0,.125);	
+}
+
+.meaning-br{
+	margin-bottom: 5px; 
+}
+
+.meaning-eng{
+	margin-bottom: 5px; 
+}
+
+.meaning-dic{
+	margin-bottom: 5px; 
+}
+
+.sp-lista{
+	margin-left: -10px;
+}
+
+.modal-body-kanji {
+    background-color: #e8ecef;
+	padding: 0rem 1rem 0rem 1rem;	
+}
+
+.card-modal-kanji{
+	border: none;
+    background-color: #e8ecef;	
+}
+
+/* Kanji */
+
+.circle-item{
+	color: #da364f;
+	font-size: 8px;
+	margin-right: 6px;
+	vertical-align: middle;	
+}
+
+.leitura-ex{
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.card-stroke{
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;		
+}
+
+.card-stroke-img{
+	margin: 0px;
+}
+
+.card-deck-stroke{
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+	margin-bottom: 0px !important;	
+	padding: 0px;
+    border: 1px solid #ffffff;
+    border-radius: none !important;		
+}
+
+.card-stroke-size{
+	max-width: 171.67px;
+}
+
+.card-sig{
+	padding-right: 0px;
 }
 
 /* Conteúdo */
@@ -186,14 +408,15 @@ section{
 
 .cont-home-btn{
     color: #ffffff;
-    background-color: #343a40;
-    border-color: #343a40;	
+    background-color: #242d34;
+    border-color: #242d34;	
 	border-radius: 1.25rem;
 }
 
 .cont-home-btn:hover{
 	color: #ffffff !important;
-	background-color: #1a1d20 !important;
+	background-color: #da364f !important;
+	border: 1px solid #da364f !important;
 }
 
 /* Grupos */
@@ -202,24 +425,32 @@ section{
 
 }
 
+.grupo-item-modal{
+	border: none;
+    background-color: #e8ecef;		
+}
+
+.modal-body-gp{
+	background-color: #e8ecef;
+}
 
 .line-jumb{
 	padding-bottom: 2%;
-	border-bottom: 1px solid #343a40;	
+	border-bottom: 3px solid #da364f;	
 }
 
 /* Kanas */
 
 .main-kana{
 	margin: 30px 5px;
-	padding: 2%;
+	padding: 2% 0%;
 }
 
 .img-main-kana{	
 	margin: 0 auto;
 }
 
-.aux-kana{
+.aux-kana{	
 	padding: 2%;
 }
 
@@ -233,7 +464,6 @@ section{
 }
 
 .tab {
-	border: 1px solid #cccccc;
 	background-color: #f1f1f1;
 }
 
@@ -268,6 +498,7 @@ section{
 
 .quiz-img-in{
 	margin-bottom: 30px;
+	max-height: 200px;
 }
 
 .quiz-title {
@@ -278,18 +509,25 @@ section{
 	width: 95%;
 }
 
+/* Sobre */
+
+.text-about{
+	line-height: 1.5;	
+}
+
 /* Footer */
 
 .footer-above{
-	min-height: 220px;	
-	background-color: #cfcecf;
-	border-top: 1px solid #e7e7e7;
-	margin-top: 100px;
+	min-height: 280px;	
+	background-color: #242d34;
+	border-bottom: 2px solid #e7e7e7;	
 	padding: 20px 0px;
 }
 
 .footer-below{
 	padding: 15px 0px 5px 0px !important;
+	background-color: #242d34;	
+	color: #ffffff;
 }
 
 .btn-social{
@@ -303,12 +541,12 @@ section{
 }
 
 .icn-social{
-	font-size: 35px;
-	color: #23272b;
+	font-size: 30px;
+	color: #ffffff;
 }
 
 .icn-social:hover {
-	color: #1a1d20; 
+	color: #da364f; 
 }
 
 .list-group-item{
@@ -317,8 +555,57 @@ section{
 	padding: 2.5rem 0.6rem;
 }
 
+.div-patt{
+	margin-bottom: 0px;
+	background-image: url("../img/patt-tasu.png");
+	background-repeat: repeat-x;
+}
+
+.footer-text{
+	color: #ffffff;
+	padding: 10px;	
+}
+
 /* Misc */
 
-.bd{
-	border: 1px solid red;
+.vert{
+	margin: auto 0; 
+}
+
+.mg-btt{
+	margin-bottom: 160px;
+}
+
+.module-kana{
+	border: 2px solid #da364f;
+	padding: 0px;
+	margin: 0px;
+	cursor: pointer;	
+	background-color: #ffffff;
+}
+
+.module-kana:hover{	
+	transition: .2s;
+	opacity: .6;
+}
+
+.module-kana-blank{
+	padding: 0px;
+	margin: 0px;	
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0px;
+}
+
+.list-group-item-kanas{
+	padding: .5%;
+}
+
+.sd-modal{
+	color: #242d34;
+}
+
+.sd-modal:hover{
+	color: #da364f;
 }

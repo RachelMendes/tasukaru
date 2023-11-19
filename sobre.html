@@ -6,7 +6,8 @@
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Projeto Home</title>
+	<title>Tasukaru</title>
+	<link rel="icon" type="image/x-icon" href="img/fav-tasu.ico">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -21,7 +22,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	<!-- Google Fonts -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans">
 	
 	<!-- Bootstrap Core JS -->
 	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
@@ -41,7 +42,7 @@
 			
 			<!-- Logo Projeto -->
 			<a href="index.html">
-				<img class="navbar-brand" src="img/logoProjeto.png" alt="logo"/>
+				<img class="navbar-brand" src="img/tasu-logo-new.png" alt="logo"/>
 			</a>
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -91,18 +92,16 @@
 			<div class="container line-busca px-5">
 				<div class="row" id="">
 					<div class="col-sm-12 col-md-7">
-						<h3 class="text-left">Sobre</h3>
-						<h5 class=""> 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						<h3 class="text-left mb-3">Tasukaru Jisho「助かる辞書」</h3>
+						<h5 class="text-about"> 
+							O dicionário de kanji <span><img id="tasu-text" alt="Tasukaro" src="img/tasukaru.png"></span> trata-se do projeto desenvolvido como Trabalho de Curso em Design da aluna Rachel Mendes.
 						</h5>
-						<h5 class="">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+						<h5 class="text-about">O principal intuito dessa proposta é projetar o protótipo para um dicionário digital de kanji da língua japonesa em formato de website que resulte em um ambiente de consulta com uma interface amigável, responsiva e dentro de padrões aceitáveis do design da informação. 
 						</h5>						
 					</div>
 					<div class="col-sm-12 col-md-5 text-center" id="sobre-div">
 						<figure class="">
-							<img alt="Kanji" src="img/img-place.png" id="site-img" class="img-fluid rounded-circle align-middle">					
+							<img alt="Kanji" src="img/elemento3.png" id="site-img" class="img-fluid align-middle">					
 						</figure>					
 					</div>					
 				</div>
@@ -113,18 +112,23 @@
 			<div class="container px-5">
 		
 				<h3>Modo de Uso</h3>		
-				<ul class="list-group list-group-flush">
-					<li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-					<li class="list-group-item">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-					<li class="list-group-item">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </li>
-					<li class="list-group-item">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
-					<li class="list-group-item">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-					<li class="list-group-item">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-					<li class="list-group-item">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </li>
+				<ul class="list-group list-group-flush" id="modo-uso">
+					<li class="list-group-item">A pesquisa pode ser feita utilizando japonês, inglês, português, romaji, kana ou o próprio kanji</li>
+					<li class="list-group-item">A pesquisa também pode ser feita através da escrita manual do kanji desejado, para isso selecione  <i class="bi bi-pencil-square"></i></li>
+					<li class="list-group-item">A pesquisa também pode ser feita através da entrada por voz do kanji desejado, para isso selecione  <i class="bi bi-mic-fill"></i></li>
+					<li class="list-group-item">O Tasukaru retornará opções de kanji que correspondem a pesquisa realizada</li>
+					<li class="list-group-item">Para informações mais detalhadas acesse a página do kanji desejado</li>
+					<li class="list-group-item">A qualquer momento é possível realizar uma nova pesquisa através da barra de busca</li>
 				</ul>		
 						
 			</div>
 		</section>		
+
+		<div class="div-patt">
+			<div id="ft-patt" class="">
+
+			</div>
+		</div>
 
 		<button onclick="topFunction()" id="btnTop" title="Voltar ao início">
 			<img src="img/top.png" id="top-img" class="img-fluid" alt="imagem">
@@ -136,10 +140,10 @@
 
 		<div class="footer-above"> <!-- Footer Superior -->
 			<div class="container">
-				<div class="row justify-content-center">
+				<div class="row justify-content-center pt-4">
 					<!-- Footer: Primeira Coluna (logo) -->
 					<div class="col-md-4" align="center">
-						<a href="index.html"><img src="img/logoProjeto-vert.png" id="simple-logo" class="img-fluid" alt="logo simples"></a>
+						<a href="index.html"><img src="img/tasu-logo-vert.png" id="vert-logo" class="img-fluid" alt="logo simples"></a>
 					</div>
 					<!-- Footer: Segunda Coluna (redes sociais) -->					
 					<div class="col-md-4" align="center">
@@ -165,12 +169,20 @@
 									<i class="bi bi-youtube icn-social"></i>
 								</a>
 								</a>
-							</li>	
+							</li>
+							<li class="list-group-item">
+								<a class="" target="_blank" href="https://github.com/">
+									<i class="bi bi-github icn-social"></i>
+								</a>
+								</a>
+							</li>							
 						</ul>							
 					</div>
 					<!-- Footer: Terceira Coluna -->						
 					<div class="col-md-4" align="center">
-						<img src="img/img-place.png" id="" class="img-fluid rounded-circle" alt="imagem">							
+						<a href="kanji-dia.html" data-toggle="tooltip" data-placement="bottom" title="Kanji do dia">
+							<img src="img/home-day.png" id="img-footer" class="img-fluid" alt="imagem">	
+						</a>
 					</div>					
 				</div>
 			</div>

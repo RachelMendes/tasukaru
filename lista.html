@@ -6,7 +6,8 @@
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Projeto Home</title>
+	<title>Tasukaru</title>
+	<link rel="icon" type="image/x-icon" href="img/fav-tasu.ico">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -21,7 +22,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	<!-- Google Fonts -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans">
 	
 	<!-- Bootstrap Core JS -->
 	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
@@ -41,7 +42,7 @@
 			
 			<!-- Logo Projeto -->
 			<a href="index.html">
-				<img class="navbar-brand" src="img/logoProjeto.png" alt="logo"/>
+				<img class="navbar-brand" src="img/tasu-logo-new.png" alt="logo"/>
 			</a>
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -50,10 +51,10 @@
 		
 			<div class="justify-content-end collapse navbar-collapse" id="collapsibleNavbar">
 				<ul class="navbar-nav" id="top-menu">
-					<li class="nav-item">
+					<li class="nav-item active">
 						<a class="nav-link" href="dicionario.html">DICIONÁRIO</a>
 					</li>
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="kanji-dia.html">KANJI DO DIA</a>
 					</li>
 					<li class="nav-item">
@@ -92,13 +93,13 @@
 				<div class="row justify-content-center" id="">
 					<ul class="nav justify-content-center">
 						<li class="nav-item nav-link">
-							<p><img src="img/japao-s.png" class="img-lang" alt="Japonês">Japonês</p>						
+							<p><img src="img/japao-s-color.png" class="img-lang" alt="Japonês">Japonês</p>						
 						</li>
 						<li class="nav-item nav-link">
-							<p><img src="img/reino-s.png" class="img-lang" alt="Inglês">Inglês</p>
+							<p><img src="img/reino-s-color.png" class="img-lang" alt="Inglês">Inglês</p>
 						</li>
 						<li class="nav-item nav-link">
-							<p><img src="img/brasil-s.png" class="img-lang" alt="Portuguê">Português (br)</p>
+							<p><img src="img/brasil-s-color2.png" class="img-lang" alt="Portuguê">Português (br)</p>
 						</li>
 					</ul>
 				</div>
@@ -155,27 +156,281 @@
 		</header>
 	
 		<section class="">
-			<div class="container px-5">
-		
-				<h3>Kanji do Dia</h3>
-				<p>This is some text.</p>
+			<div class="container px-5 mt-5">
+
+				<div class="row card-deck justify-content-center mt-4">			
+					<!-- Kanji 1 -->
+					<div class="card card-lista col-lg-6 mb-3 grupo-item justify-content-center">
+						<div class="row no-gutters px-1">
+							<div class="col-md-4">
+								<img class="card-img card-img-lista2 img-fluid" src="img/busca-tsuki-size.png" alt="月">
+							</div>
+							<div class="col-md-8 vert">
+								<div class="card-body">
+									<div class="card-title pt-0 px-1">
+										<h6 class="meaning-eng"><img src="img/brasil-s-color2.png" class="img-lang" alt="pt-br">lua, mês</h6>
+										<h6 class="meaning-eng"><img src="img/reino-s-color.png" class="img-lang" alt="eng">moon, month</h6>
+									</div>
+									<div class="card-text card-leitura-kun px-1">
+										<span class="leitura-tp">kun</span>
+										<span class="leitura">「つき」</span>
+										<button class="btn sd-modal sp-lista"><h2><i class="bi bi-volume-up-fill"></i></h2></button>
+									</div>
+									<div class="card-text px-1 ">
+										<span class="leitura-tp">on</span>
+										<span class="leitura">「ゲツ, ガツ」</span>
+										<button class="btn sd-modal sp-lista"><h2><i class="bi bi-volume-up-fill"></i></h2></button>
+									</div>									
+									<div class="row justify-content-end px-3">
+									<button class="btn cont-home-btn mx-1" href="#" data-toggle="modal" data-target="#kanji-tsuki">
+										<i class="bi bi-share-fill"></i>
+									</button>									
+										<a class="btn cont-home-btn" role="button" href="tsuki.html">Detalhes &raquo;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>			
+				</div>
+
+				<div class="row card-deck justify-content-center mt-4">			
+					<!-- Kanji 2 -->
+					<div class="card card-lista col-lg-6 mb-3 grupo-item justify-content-center">
+						<div class="row no-gutters px-1">
+							<div class="col-md-4">
+								<img class="card-img card-img-lista2 img-fluid" src="img/busca-hana-size.png" alt="花">
+							</div>
+							<div class="col-md-8 vert">
+								<div class="card-body">
+									<div class="card-title pt-0 px-1">
+										<h6 class="meaning-eng"><img src="img/brasil-s-color2.png" class="img-lang" alt="pt-br">flor, florescer, pétala</h6>
+										<h6 class="meaning-eng"><img src="img/reino-s-color.png" class="img-lang" alt="eng">flower, blossom, bloom, petal</h6>
+									</div>
+									<div class="card-text card-leitura-kun px-1">
+										<span class="leitura-tp">kun</span>
+										<span class="leitura">「はな」</span>
+										<button class="btn sd-modal sp-lista"><h2><i class="bi bi-volume-up-fill"></i></h2></button>
+									</div>
+									<div class="card-text px-1 ">
+										<span class="leitura-tp">on</span>
+										<span class="leitura">「カ」</span>
+										<button class="btn sd-modal sp-lista"><h2><i class="bi bi-volume-up-fill"></i></h2></button>
+									</div>
+									<div class="row justify-content-end px-3">
+									<button class="btn cont-home-btn mx-1" href="#" data-toggle="modal" data-target="#kanji-hana">
+										<i class="bi bi-share-fill"></i>
+									</button>									
+										<a class="btn cont-home-btn" role="button" href="hana.html">Detalhes &raquo;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>			
+				</div>
 				
-				<h2>Primeiro Título</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="row card-deck justify-content-center mt-4">			
+					<!-- Kanji 3 -->
+					<div class="card card-lista col-lg-6 mb-3 grupo-item justify-content-center">
+						<div class="row no-gutters px-1">
+							<div class="col-md-4">
+								<img class="card-img card-img-lista2 img-fluid" src="img/busca-toki-size.png" alt="時">
+							</div>
+							<div class="col-md-8 vert">
+								<div class="card-body">
+									<div class="card-title pt-0 px-1">
+										<h6 class="meaning-eng"><img src="img/brasil-s-color2.png" class="img-lang" alt="pt-br">tempo, hora</h6>
+										<h6 class="meaning-eng"><img src="img/reino-s-color.png" class="img-lang" alt="eng">time, hour</h6>
+									</div>
+									<div class="card-text card-leitura-kun px-1">
+										<span class="leitura-tp">kun</span>
+										<span class="leitura">「とき, どき」</span>
+										<button class="btn sd-modal sp-lista"><h2><i class="bi bi-volume-up-fill"></i></h2></button>
+									</div>
+									<div class="card-text px-1 ">
+										<span class="leitura-tp">on</span>
+										<span class="leitura">「ジ」</span>
+										<button class="btn sd-modal sp-lista"><h2><i class="bi bi-volume-up-fill"></i></h2></button>
+									</div>									
+									<div class="row justify-content-end px-3">
+									<button class="btn cont-home-btn mx-1" href="#" data-toggle="modal" data-target="#kanji-toki">
+										<i class="bi bi-share-fill"></i>
+									</button>									
+										<a class="btn cont-home-btn" role="button" href="toki.html">Detalhes &raquo;</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>			
+				</div>				
 				
-				<h3>Segundo Título</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				
-				<h4>Terceiro Título</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		
 			</div>
 		</section>
 
+		<!-- Modal Tsuki -->
+		<div class="modal fade" id="kanji-tsuki" tabindex="-1" aria-labelledby="kanji-tsuki" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="kanji-tsuki-label">Compartilhe agora!</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body modal-body-kanji">
+
+						<div class="card card-modal-kanji mb-3 grupo-item justify-content-center">
+							<div class="row no-gutters px-1">
+								<div class="col-md-4 vert">
+									<img class="card-img card-img-lista2 img-fluid" src="img/busca-tsuki-size.png" alt="月">
+								</div>
+								<div class="col-md-8 vert">
+									<div class="card-body">
+										<div class="card-title pt-0 px-1">
+											<h6 class="meaning-eng"><img src="img/brasil-s-color2.png" class="img-lang" alt="pt-br">lua, mês</h6>
+											<h6 class="meaning-eng"><img src="img/reino-s-color.png" class="img-lang" alt="eng">moon, month</h6>
+										</div>
+										<div class="card-text card-leitura-kun px-1">
+											<span class="leitura-tp">kun</span>
+											<span class="leitura">「つき」</span>
+											<button class="btn sd-modal sp-lista"><h2><i class="bi bi-volume-up-fill"></i></h2></button>
+										</div>
+										<div class="card-text px-1 ">
+											<span class="leitura-tp">on</span>
+											<span class="leitura">「ゲツ, ガツ」</span>
+											<button class="btn sd-modal sp-lista"><h2><i class="bi bi-volume-up-fill"></i></h2></button>
+										</div>									
+										<div class="row px-3">
+											<button class="btn cont-home-btn mx-1" href="#" data-dismiss="modal"><i class="bi bi-whatsapp"></i></button>
+											<button class="btn cont-home-btn mr-1" href="#" data-dismiss="modal"><i class="bi bi-telegram"></i></i></button>
+											<button class="btn cont-home-btn mr-1" href="#" data-dismiss="modal"><i class="bi bi-instagram"></i></button>
+											<button class="btn cont-home-btn mr-1" href="#" data-dismiss="modal"><i class="bi bi-twitter-x"></i></button>	
+											<button class="btn cont-home-btn mr-1" href="#" data-dismiss="modal"><i class="bi bi-facebook"></i></button>												
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal Hana -->
+		<div class="modal fade" id="kanji-hana" tabindex="-1" aria-labelledby="kanji-hana" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="kanji-hana-label">Compartilhe agora!</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body modal-body-kanji">
+
+						<div class="card card-modal-kanji mb-3 grupo-item justify-content-center">
+							<div class="row no-gutters px-1">
+								<div class="col-md-4 vert">
+									<img class="card-img card-img-lista2 img-fluid" src="img/busca-hana-size.png" alt="花">
+								</div>
+								<div class="col-md-8 vert">
+									<div class="card-body">
+										<div class="card-title pt-0 px-1">
+											<h6 class="meaning-eng"><img src="img/brasil-s-color2.png" class="img-lang" alt="pt-br">flor, florescer, pétala</h6>
+											<h6 class="meaning-eng"><img src="img/reino-s-color.png" class="img-lang" alt="eng">flower, blossom, bloom, petal</h6>
+										</div>
+										<div class="card-text card-leitura-kun px-1">
+											<span class="leitura-tp">kun</span>
+											<span class="leitura">「はな」</span>
+											<button class="btn sd-modal sp-lista"><h2><i class="bi bi-volume-up-fill"></i></h2></button>
+										</div>
+										<div class="card-text px-1 ">
+											<span class="leitura-tp">on</span>
+											<span class="leitura">「カ」</span>
+											<button class="btn sd-modal sp-lista"><h2><i class="bi bi-volume-up-fill"></i></h2></button>
+										</div>									
+										<div class="row px-3">
+											<button class="btn cont-home-btn mx-1" href="#" data-dismiss="modal"><i class="bi bi-whatsapp"></i></button>
+											<button class="btn cont-home-btn mr-1" href="#" data-dismiss="modal"><i class="bi bi-telegram"></i></i></button>
+											<button class="btn cont-home-btn mr-1" href="#" data-dismiss="modal"><i class="bi bi-instagram"></i></button>
+											<button class="btn cont-home-btn mr-1" href="#" data-dismiss="modal"><i class="bi bi-twitter-x"></i></button>	
+											<button class="btn cont-home-btn mr-1" href="#" data-dismiss="modal"><i class="bi bi-facebook"></i></button>												
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal Toki -->
+		<div class="modal fade" id="kanji-toki" tabindex="-1" aria-labelledby="kanji-toki" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="kanji-toki-label">Compartilhe agora!</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body modal-body-kanji">
+
+						<div class="card card-modal-kanji mb-3 grupo-item justify-content-center">
+							<div class="row no-gutters px-1">
+								<div class="col-md-4 vert">
+									<img class="card-img card-img-lista2 img-fluid" src="img/busca-toki-size.png" alt="花">
+								</div>
+								<div class="col-md-8 vert">
+									<div class="card-body">
+										<div class="card-title pt-0 px-1">
+											<h6 class="meaning-eng"><img src="img/brasil-s-color2.png" class="img-lang" alt="pt-br">tempo, hora</h6>
+											<h6 class="meaning-eng"><img src="img/reino-s-color.png" class="img-lang" alt="eng">time, hour</h6>
+										</div>
+										<div class="card-text card-leitura-kun px-1">
+											<span class="leitura-tp">kun</span>
+											<span class="leitura">「とき, どき」</span>
+											<button class="btn sd-modal sp-lista"><h2><i class="bi bi-volume-up-fill"></i></h2></button>
+										</div>
+										<div class="card-text px-1 ">
+											<span class="leitura-tp">on</span>
+											<span class="leitura">「ジ」</span>
+											<button class="btn sd-modal sp-lista"><h2><i class="bi bi-volume-up-fill"></i></h2></button>
+										</div>									
+										<div class="row px-3">
+											<button class="btn cont-home-btn mx-1" href="#" data-dismiss="modal"><i class="bi bi-whatsapp"></i></button>
+											<button class="btn cont-home-btn mr-1" href="#" data-dismiss="modal"><i class="bi bi-telegram"></i></i></button>
+											<button class="btn cont-home-btn mr-1" href="#" data-dismiss="modal"><i class="bi bi-instagram"></i></button>
+											<button class="btn cont-home-btn mr-1" href="#" data-dismiss="modal"><i class="bi bi-twitter-x"></i></button>	
+											<button class="btn cont-home-btn mr-1" href="#" data-dismiss="modal"><i class="bi bi-facebook"></i></button>												
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="div-patt">
+			<div id="ft-patt" class="">
+
+			</div>
+		</div>
+		
 		<button onclick="topFunction()" id="btnTop" title="Voltar ao início">
 			<img src="img/top.png" id="top-img" class="img-fluid" alt="imagem">
 		</button>	
@@ -186,10 +441,10 @@
 
 		<div class="footer-above"> <!-- Footer Superior -->
 			<div class="container">
-				<div class="row justify-content-center">
+				<div class="row justify-content-center pt-4">
 					<!-- Footer: Primeira Coluna (logo) -->
 					<div class="col-md-4" align="center">
-						<a href="index.html"><img src="img/logoProjeto-vert.png" id="simple-logo" class="img-fluid" alt="logo simples"></a>
+						<a href="index.html"><img src="img/tasu-logo-vert.png" id="vert-logo" class="img-fluid" alt="logo simples"></a>
 					</div>
 					<!-- Footer: Segunda Coluna (redes sociais) -->					
 					<div class="col-md-4" align="center">
@@ -216,11 +471,19 @@
 								</a>
 								</a>
 							</li>	
+							<li class="list-group-item">
+								<a class="" target="_blank" href="https://github.com/">
+									<i class="bi bi-github icn-social"></i>
+								</a>
+								</a>
+							</li>							
 						</ul>							
 					</div>
 					<!-- Footer: Terceira Coluna -->						
 					<div class="col-md-4" align="center">
-						<img src="img/img-place.png" id="" class="img-fluid rounded-circle" alt="imagem">							
+						<a href="kanji-dia.html" data-toggle="tooltip" data-placement="bottom" title="Kanji do dia">
+							<img src="img/home-day.png" id="img-footer" class="img-fluid" alt="imagem">		
+						</a>	
 					</div>					
 				</div>
 			</div>
